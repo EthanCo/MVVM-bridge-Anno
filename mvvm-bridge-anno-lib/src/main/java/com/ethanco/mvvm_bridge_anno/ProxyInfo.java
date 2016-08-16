@@ -31,7 +31,7 @@ public class ProxyInfo {
         builder.append("import com.ethanco.mvvm_bridge_anno.AbstractInjector;\n");
         builder.append("import android.os.Build;\n");
         builder.append("import android.os.Bundle;\n");
-        //TODO if - else
+
         builder.append("import android.transition.*;\n");
         //builder.append("import android.transition.Explode;");
         //builder.append("import android.transition.Fade;");
@@ -65,7 +65,7 @@ public class ProxyInfo {
     }
 
     private StringBuilder generateActivityFinderCode(StringBuilder builder) {
-
+        builder.append("  ");
         //TODO
 
         return builder;

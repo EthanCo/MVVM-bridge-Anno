@@ -6,6 +6,7 @@ public enum Finder {
         @Override
         public String setActivityTrans() {
             StringBuilder sb = new StringBuilder();
+            sb.append("   ");
             return sb.toString();
         }
     };
