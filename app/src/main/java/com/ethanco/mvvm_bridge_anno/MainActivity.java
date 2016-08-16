@@ -1,12 +1,14 @@
 package com.ethanco.mvvm_bridge_anno;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-@MVVM(View = String.class, ViewModel = String.class)
-public class MainActivity extends AppCompatActivity {
+import com.ethanco.mvvm_bridge_anno.viewModel.BBActivity;
+import com.ethanco.mvvm_bridge_anno.viewModel.MainViewModel;
 
-    @MVVM(View = MainActivity.class, ViewModel = MainActivity.class)
+@MVVM(View = Integer.class, ViewModel = Integer.class)
+public class MainActivity extends BBActivity<MainViewModel> {
+
+    @MVVM(View = String.class, ViewModel = String.class)
     public void say() {
 
     }

@@ -10,8 +10,8 @@ import java.lang.annotation.RetentionPolicy;
 //@Target(ElementType.METHOD)
 public @interface MVVM {
 
-    //    Class value();
-    Class View();
-
-    Class ViewModel();
+        Class value();
+//    Class View();
+//
+//    Class ViewModel();
 }
